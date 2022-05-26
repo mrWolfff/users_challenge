@@ -1,0 +1,6 @@
+
+<form #loginForm="ngForm" (ngSubmit)="create(loginForm.value)">
+    <input name="email" ngModel placeholder="Email" id="name" type="text" />
+    <input name="password" ngModel placeholder="Password" id="age" type="password" />
+    <button>Create</button>
+</form>
